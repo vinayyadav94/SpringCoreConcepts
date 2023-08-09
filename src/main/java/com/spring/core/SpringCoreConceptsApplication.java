@@ -14,6 +14,7 @@ public class SpringCoreConceptsApplication {
 //		Animal animal = new Dog();
 //		Person person = new Person(animal);
 //		person.playWithAnimal();
+		// commit test
 		ApplicationContext context = SpringApplication.run(SpringCoreConceptsApplication.class, args);
 		Person personBean = context.getBean(Person.class);
 		personBean.playWithAnimal();
